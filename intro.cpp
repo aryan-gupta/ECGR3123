@@ -1,6 +1,7 @@
 
-#include <windows.h>
+//#include <windows.h>
 #include <iostream>
+#include <winsock2.h>
 
 int main() {
 	WSADATA wsaData;
