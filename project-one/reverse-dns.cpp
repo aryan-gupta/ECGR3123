@@ -5,6 +5,10 @@
 // #define _WIN32_WINNT 0x501
 #include <ws2tcpip.h>
 
+/////////////////////////////////////////////////////
+// Compile with g++ .\reverse-dns.cpp -lws2_32 ??  //
+/////////////////////////////////////////////////////
+
 int main() {
 	WSADATA wsadata;
 	int result = WSAStartup(MAKEWORD(2,2),&wsadata);
