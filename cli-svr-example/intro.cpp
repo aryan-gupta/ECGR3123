@@ -16,15 +16,3 @@ int main() {
 	SOCKET sock = socket(PF_INET, SOCKET_STREAM)
 	
 }
-
-
-
-int main() {
-	int arr[5];
-	foo(arr);
-	
-}
-
-void foo(int[5] a) {
-	sizeof(a);
-}
