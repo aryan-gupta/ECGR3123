@@ -5,14 +5,26 @@
 
 int main() {
 	WSADATA wsaData;
-	int iResult;
 
 	// Initialize Winsock
-	iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
+	int iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
 	if (iResult != 0) {
 		std::cout << "WSAStartup failed: " << iResult << "\n";
 		return 1;
 	}
 	
+	SOCKET sock = socket(PF_INET, SOCKET_STREAM)
 	
+}
+
+
+
+int main() {
+	int arr[5];
+	foo(arr);
+	
+}
+
+void foo(int[5] a) {
+	sizeof(a);
 }
